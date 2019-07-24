@@ -10,6 +10,11 @@ body {
 
 #mainNav {
     border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
 }
 
 #logo {
@@ -27,6 +32,8 @@ body {
 /** MAIN BODY **/
 #products {
     text-align: center;
+    position: relative;
+    margin-top: 100px;
 }
 
 #shades {
@@ -40,17 +47,26 @@ body {
     box-shadow: 10px 20px 35px 5px grey;
 }
 
+#access {
+    background-image: url('./Assets/Glasses/ivana-cajina-_7LbC5J-jw4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 25px 75px 25px 25px;
+    height: 500px;
+    position: relative;
+    box-shadow: 10px 20px 35px 5px grey;
+}
+
 #mensWear {
     background-color: white;
     width: 40%;
     height: 30%;
     position: absolute;
     bottom: -20px;
-    padding: 30px;
     border: 5px double;
     opacity: .93;
-    
-
+    text-align: center;
+    font-size: 36px;
 }
 
 #womensWear {
@@ -62,18 +78,60 @@ body {
     right: 15px;
     border: 5px double;
     opacity: .93;
+    text-align: center;
+    font-size: 34px;
+
 }
 
-#access {
-    background-image: url('./Assets/Glasses/ivana-cajina-_7LbC5J-jw4-unsplash.jpg');
-    background-size: cover;
+.floatBorder {
+    margin-top: 50px;
+    background-color: black;
+    height: 1px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/** NOW TRENDING FONT **/
+
+#trendBanner {
+    text-align: center;
+    margin-top: 75px;
+}
+
+#leftTrend {
+    float: left;
+    padding-left: 100px;
+}
+
+#rightTrend {
+    float: right;
+    padding-right: 100px;
+}
+/** TRENDING SECTION WITH SLIDESHOW **/
+
+#trending {
+    height: 100px;
+    margin: 0px 75px 400px 75px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+#trendImg {
+    background-image: url('./Assets/FF.png');
+    background-size: contain;
     background-repeat: no-repeat;
-    margin: 25px 75px 25px 25px;
-    height: 500px;
-    position: relative;
-    box-shadow: 10px 20px 35px 5px grey;
+    background-position: center;
 }
 
+#trendSlides {
+    background-size: contain;
+}
+
+
+
+/** INSTAGRAM SECTION **/
 .instaBox {
     text-align: center;
     margin-top: 25px;
