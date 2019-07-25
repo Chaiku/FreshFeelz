@@ -6,6 +6,7 @@ body {
 /** NAVBAR AND LOGO **/
 .nav-link {
     color: black;
+    font-family: 'Acme', sans-serif;
 }
 
 #mainNav {
@@ -67,7 +68,13 @@ body {
     opacity: .93;
     text-align: center;
     font-size: 36px;
+    font-family: 'Acme', sans-serif;
 }
+
+#mensWear:hover {
+    opacity: 1;
+}
+
 
 #womensWear {
     background-color: white;
@@ -80,7 +87,11 @@ body {
     opacity: .93;
     text-align: center;
     font-size: 34px;
+    font-family: 'Acme', sans-serif;
+}
 
+#womensWear:hover {
+    opacity: 1;
 }
 
 .floatBorder {
@@ -101,11 +112,15 @@ body {
 #leftTrend {
     float: left;
     padding-left: 100px;
+    font-family: 'Acme', sans-serif;
+
 }
 
 #rightTrend {
     float: right;
     padding-right: 100px;
+    font-family: 'Acme', sans-serif;
+
 }
 /** TRENDING SECTION WITH SLIDESHOW **/
 
