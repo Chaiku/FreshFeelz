@@ -1,0 +1,55 @@
+#mensHead {
+    background-image: url('./Assets/Mens/mensCover.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    height: 250px;
+    
+}
+
+#prodNav {
+    background-color: darkgray; 
+    margin: 0 auto;
+    width: 90%;
+}
+
+#prodTable {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.mensProd {
+    margin: 22px;
+    height: 200px;
+}
+
+.styleSwap {
+    background-color: none;
+    padding: 20px;
+}
+
+.styleNav {
+    display: inline;
+}
+
+#mens1 {
+    background-color: blue;
+}
+
+#mens2 {
+    background-color: red;
+}
+
+#mens3 {
+    background-color: green;
+}
+
+#mens4 {
+    background-color: purple;
+}
+
+#mens5 {
+    background-color: black;
+}
+
+
+
