@@ -1,6 +1,7 @@
-#mensHead {
-    background-image: url('./Assets/Mens/mensCover.jpg');
+#womensHead {
+    background-image: url('./Assets/Womens/womensCover.jpg');
     background-size: cover;
+    background-position: center;
     margin: 0 auto;
     height: 250px;
     
