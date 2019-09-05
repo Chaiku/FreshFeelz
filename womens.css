@@ -29,6 +29,10 @@
     height: 200px;
 }
 
+.mensProd:hover {
+    opacity: .8;
+}
+
 .styleSwap {
     background-color: none;
     padding: 20px;
