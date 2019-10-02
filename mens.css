@@ -11,6 +11,10 @@
     border: 1px solid black;
     text-align: center;
     position: relative;
+    background-image: url('./Assets/Glasses/glass1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
 
@@ -49,10 +53,6 @@
     background-color: white;
     border: 3px solid black;
     padding: 10px;
-}
-
-.mensGlass:hover {
-    opacity: .8;
 }
 
 #showProdButton {
