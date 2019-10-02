@@ -6,11 +6,30 @@
     
 }
 
+#glassImg {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+
+}
+
+#prodInfo {
+    border: 1px solid black;
+    position: relative;
+    float: right;
+}
+
 #prodNav {
     border-bottom: 1px solid black; 
     margin: 0 auto;
+    margin-bottom: 30px;
     width: 90%;
     padding: 10px;
+}
+
+#mensProdTable {
+    position: relative;
 }
 
 #prodTable {
@@ -24,9 +43,12 @@
 }
 
 .mensGlass {
-    margin: 22px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     height: 200px;
-    background-color: red;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
 }
 
 .mensGlass:hover {

@@ -1,75 +1,104 @@
-// let products = {
-//         mens: [{
-//             glasses: [{
-//                 id: "glass1",
-//                 price: 10,
-//                 image: "N/A",
-//             },
-//             {
-//                 id: "glass2",
-//                 price: 10,
-//                 image: "N/A"
-//             }],
-//             accesories: [{}],
-//         }],
-//         womens: [{
-//             glasses: [{
-//                 id: "glass1",
-//                 price: 15,
-//                 image: "N/A",
-//             },
-//             {
-//                 id: "glass2",
-//                 price: 15,
-//                 image: "N/A"
-//             }],
-//             accesories: [{}],
-//         }],       
-        
-// }
-
-let mensProducts = {
-        glasses: [{
-            id: "glass1",
-            price: 10,
-            image: "N/A"
-        },
-        {
-            id: "glass2",
-            price: 10,
-            image: "N/A"
-        }],
-        accessories: [],
-}
-
-let womensProducts = {
+let products = {
     glasses: [{
         id: "glass1",
-        price: 15,
-        image: "N/A"
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass3",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass5",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass4",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass1",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass1",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass1",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass1",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass1",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass1",
+        price: 100,
+        image: "",
+        gender: "M"
+    },
+    {
+        id: "glass1",
+        price: 100,
+        image: "",
+        gender: "M"
     },
     {
         id: "glass2",
-        price: 15,
-        image: "N/A"
+        price: 200,
+        image: "",
+        gender: "F"
     }],
-    accessories: [],
+    accessories: []
 }
 
 const renderProducts = function() {
-    console.log(mensProducts);
+    console.log(products);
     console.log(this);
 
     $(`#mensProdTable`).empty();
-    for ( let i = 0; i < mensProducts.glasses.length; i++) {
+    for ( let i = 0; i < products.glasses.length; i++) {
+        if (products.glasses[i].gender === "M") {
     $(`#mensProdTable`).append(`
-        <div class="col-lg-2 mensGlass" id="glasses${i}">
-            <button type="button" class="btn btn-info btn-lg" id="${mensProducts.glasses[i].id}">Open Modal</button>
-            <p>Price is: ${mensProducts.glasses[i].price}</p>
+        <div class="mensGlass row container" id="glasses${i}">
+            <div class="col-4" id="glassImg">
+                <p>I will show an image</p>
+            </div>
+            <div class="col-8" id="prodInfo">
+                <span>${products.glasses[i].id}</span> <span>${products.glasses[i].price}</span>
+                <p>;kjjklkjd;akfj;ka;kfj;kfja;kfj;kfak;lf
+                    j;kdfjakjk;fj;adjf;kfj;akfjkfjkafjkdjf
+                    kldfk;ajfk;lfj;ajf;fjkaf;lfjadkf;fj;af
+                    ;lkajfk;jfkfj;j;afjjfjdjf;afj;klfja;lkf
+                </p>
         </div>
     `)
-    }
-
+    } else {
+        return;
+    } 
+}
 }
 
 renderProducts();
