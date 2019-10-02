@@ -23,12 +23,13 @@
     border-right: 1px solid black;
 }
 
-.mensProd {
+.mensGlass {
     margin: 22px;
     height: 200px;
+    background-color: red;
 }
 
-.mensProd:hover {
+.mensGlass:hover {
     opacity: .8;
 }
 
@@ -44,26 +45,6 @@
 
 .styleNav {
     display: inline;
-}
-
-#mens1 {
-    background-color: blue;
-}
-
-#mens2 {
-    background-color: red;
-}
-
-#mens3 {
-    background-color: green;
-}
-
-#mens4 {
-    background-color: purple;
-}
-
-#mens5 {
-    background-color: black;
 }
 
 

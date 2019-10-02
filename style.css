@@ -37,7 +37,7 @@ body {
     margin-top: 100px;
 }
 
-#shades {
+#womens {
     background-image: url('./Assets/Glasses/brooke-cagle-k9XZPpPHDho-unsplash.jpg');
     background-size: cover;
     background-position: 25% 50%;
@@ -48,7 +48,7 @@ body {
     box-shadow: 10px 20px 35px 5px grey;
 }
 
-#access {
+#mens {
     background-image: url('./Assets/Glasses/ivana-cajina-_7LbC5J-jw4-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body {
     box-shadow: 10px 20px 35px 5px grey;
 }
 
-#mensWear {
+#womensWear {
     background-color: white;
     width: 40%;
     height: 30%;
@@ -76,7 +76,7 @@ body {
 }
 
 
-#womensWear {
+#mensWear {
     background-color: white;
     width: 40%;
     height: 30%;
